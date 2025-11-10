@@ -1,74 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Sci-Torrent : Peer-to-peer for Open Science" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SciTorrent — Distributed Infrastructure for Open and Reproducible Science" />
+  <title>SciTorrent | Distributed Science Network</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="icon" href="favicon.ico" />
 
-    <title>Sci-Torrent</title>
-  </head>
+  <style>
+    body {
+      background-color: #fafafa;
+      color: #111;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
 
-  <body>
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/SciTorrent">View on GitHub</a>
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
 
-          <h1 id="project_title">Sci-Torrent</h1>
-          <h2 id="project_tagline">Peer-to-peer for Open Science</h2>
+    header h2 {
+      font-weight: 400;
+      font-size: 1.3rem;
+      color: #555;
+    }
 
-        </header>
-    </div>
+    main {
+      max-width: 820px;
+      margin: auto;
+      padding: 1rem 2rem 4rem;
+    }
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>
-<a name="vision" class="anchor" href="#vision"><span class="octicon octicon-link"></span></a>Vision</h2>
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #ddd;
+      padding: 2rem 1rem;
+    }
 
-<blockquote>
-<p>A World where the scientific production is free from centralizing models of reputation and impact.</p>
-</blockquote>
+    blockquote {
+      border-left: 4px solid #006aff;
+      padding-left: 1rem;
+      color: #333;
+      font-style: italic;
+      background: #f9f9f9;
+    }
 
-<h2>
-<a name="mission" class="anchor" href="#mission"><span class="octicon octicon-link"></span></a>Mission</h2>
+    section {
+      margin-bottom: 3rem;
+    }
 
-<p>To provide an <em>open-source</em> tool for the scientific community to simplify the execution of distributed computational experiments.</p>
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
 
-<p>To provide an <em>open-source</em> tool for the scientific community for search and access to research data collection.</p>
+    a {
+      color: #006aff;
+    }
 
-<p>To provide a better access for information among connected researchers (metadata about research projects and publications).</p>
+    .cta {
+      background: #006aff;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.4rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
 
-<h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+<body>
+  <header>
+    <h1>SciTorrent</h1>
+    <h2>Distributed Infrastructure for Open, Reproducible, and Connected Science</h2>
+    <p><a href="https://github.com/SciTorrent" class="cta">View on GitHub</a></p>
+  </header>
 
-<ul>
-<li>An automated mechanism for measuring research projects reputation and impact.</li>
-<li>A smart index of papers, the craft of a distributed citations, concepts and collaboration graph.</li>
-<li>Integrated recommendation system.</li>
-<li>Integrated crowd-funding.</li>
-</ul><h2>
-<a name="technology" class="anchor" href="#technology"><span class="octicon octicon-link"></span></a>Technology</h2>
+  <main>
 
-<ul>
-<li>Peer-to-peer.</li>
-<li>Multi-platform (web and desktop).</li>
-</ul>
-      </section>
-    </div>
+    <section id="vision">
+      <h3>Vision</h3>
+      <blockquote>
+        <p>A scientific ecosystem where knowledge circulates freely — validated, explainable, and connected — across
+          researchers, institutions, and intelligent agents.</p>
+      </blockquote>
+    </section>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    <section id="mission">
+      <h3>Mission</h3>
+      <p>SciTorrent aims to become a <strong>distributed, agent-driven layer for science</strong>, where research
+        artifacts — papers, data, code, and experiments — are discoverable, executable, and verifiable by anyone in the
+        network.</p>
+      <p>It provides a pragmatic path for science to regain <em>trust, transparency, and collaboration</em> through
+        technology and collective effort.</p>
+    </section>
 
-    
+    <section id="principles">
+      <h3>Guiding Principles</h3>
+      <ul>
+        <li><strong>Truth over prestige.</strong> Relevance and credibility emerge from verified contribution, not
+          institutional weight.</li>
+        <li><strong>Open by design.</strong> Every element of knowledge must be reusable and reproducible.</li>
+        <li><strong>Human + AI collaboration.</strong> Agents assist; humans decide, interpret, and guide.</li>
+        <li><strong>Fair distribution.</strong> Storage, compute, and governance are shared and geographically balanced.
+        </li>
+        <li><strong>Collective ownership.</strong> The network grows by participation, not central control.</li>
+      </ul>
+    </section>
 
-  </body>
+    <section id="architecture">
+      <h3>Core Architecture</h3>
+      <ul>
+        <li><strong>Peer-to-Peer Core:</strong> distributed load balancing, resilient nodes, fair-share allocation of
+          computation and storage.</li>
+        <li><strong>Agent Fabric:</strong> AI and human agents indexing, reproducing, reviewing, and explaining research
+          outputs.</li>
+        <li><strong>Open Ledger:</strong> transparent record of contributions, reputation, and verified results.</li>
+        <li><strong>Experience Layer:</strong> interactive notebooks, podcasts, video explainers, and proactive
+          recommendations connecting related work.</li>
+      </ul>
+    </section>
+
+    <section id="network-effects">
+      <h3>Network Effects</h3>
+      <p>Each verified experiment strengthens the network:</p>
+      <ul>
+        <li>New data reinforces collective intelligence and recommendation quality.</li>
+        <li>Reproducibility adds credibility and attracts new participants.</li>
+        <li>Collaboration generates visibility and shared resources.</li>
+        <li>Agents continuously expand and update the network’s knowledge graph.</li>
+      </ul>
+      <p>The result is a self-sustaining cycle of <em>validation → visibility → contribution → discovery</em>.</p>
+    </section>
+
+    <section id="invitation">
+      <h3>Invitation to Collaborate</h3>
+      <p>SciTorrent is <strong>open-source and open-governed</strong>. Its success depends on the participation of:</p>
+      <ul>
+        <li><strong>Researchers</strong> — share your work and let it be reproduced and explained.</li>
+        <li><strong>Reviewers</strong> — use AI-assisted tools to validate results and build trustworthy science.</li>
+        <li><strong>Developers</strong> — contribute to the open infrastructure, agents, and network tools.</li>
+        <li><strong>Institutions</strong> — operate nodes, host datasets, and support reproducibility standards.</li>
+        <li><strong>Funders</strong> — invest in a shared scientific infrastructure that belongs to humanity.</li>
+      </ul>
+      <p>Join, fork, or collaborate through the <a href="https://github.com/SciTorrent">SciTorrent GitHub
+          organization</a>. The network grows with every node, every agent, and every human contribution.</p>
+    </section>
+
+    <section id="direction">
+      <h3>2025–2026 Goals</h3>
+      <ul>
+        <li>Re-establish the SciTorrent Foundation and community structure.</li>
+        <li>Deliver a working peer-to-peer protocol and open ledger.</li>
+        <li>Deploy the first generation of agents for indexing, reproduction, and explanation.</li>
+        <li>Engage universities, labs, and open-science initiatives across continents.</li>
+        <li>Publish the first verified, AI-assisted papers on the network.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 SciTorrent Foundation — founded by Carlos R. B. Azevedo.  
+      Built for a fairer, more reproducible scientific future.</p>
+  </footer>
+
+</body>
+
 </html>
